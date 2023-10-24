@@ -1,0 +1,99 @@
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: "sans-serif";
+  text-align: center;
+  font-size: 100%;
+}
+h2 {
+  font-size: 200%;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+h3 {
+  font-family: "sans-serif";
+}
+h4 {
+  text-align: center;
+  font-size: 120%;
+  color: red;
+  font-family: "Courier New";
+}
+h6 {
+  padding-bottom: 20%;
+}
+.menu {
+  float: left;
+  width: 20%;
+  overflow: auto;
+}
+.right {
+  background-color: lightblue;
+  float: top;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .menu,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
+ul {
+  text-align: top;
+  list-style-type: circle;
+  margin: 5%;
+  overflow: auto;
+  background: none;
+  font-size: 20px;
+}
+li {
+  padding-bottom: 5px;
+}
+li a {
+  float: top;
+  color: #000000;
+  text-align: center;
+  padding: 0.5px;
+  text-decoration: none;
+}
+li a:hover {
+  color: blue;
+  padding: 2px;
+}
+span {
+  color: rgb(170, 0, 255);
+}
+img {
+  margin-left: 15%;
+  width: 70%;
+  height: 50%;
+}
+p {
+  font-size: 120%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.baca {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 8%;
+  overflow: hidden;
+  background-color: #444444;
+}
